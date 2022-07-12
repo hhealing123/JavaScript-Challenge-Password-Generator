@@ -35,7 +35,7 @@ There were quite a few challenging moments that I went through while creating an
 <img src = "./assets/images/Screenshot.JPG">
 
 ## Video Demo of the application!
-* https://user-images.githubusercontent.com/106945679/178595359-eb6855ca-0b35-4f29-8cd6-9317c72686cf.mp4
+* [Video Demo Link](https://user-images.githubusercontent.com/106945679/178595359-eb6855ca-0b35-4f29-8cd6-9317c72686cf.mp4)
 
 ## Final Thoughts
 * I really enjoyed creating the random password generator application using JavaScript because I always wanted to use JavaScript as it looked very interesting and fun computer language. While creating the application I went through quite a few troubles when making the application, I definitely learned numerous syntax and what each commands do. An important thing that I learned while making this application was that there are numerous ways of creating a random password generator. For instance, the writer can use if statement to create criteria(s) for the password instead of using while loop which is the way I did it; hence, I learned that it is very important to think wider when it comes to writing codes. I personally think this challenge was moderately an easy JavaScript assignment compared to other JavaScript challenges that I have seen in Youtube, Google, or Free-resource Websites; however, I believe this has provided me with a better understanding of how JavaScript works, such as syntax and assigning variables. Hence, in the future I would like to use what I have learned from this assignment to challenge myself to more advanced JavaScript projects.
