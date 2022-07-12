@@ -32,7 +32,7 @@ There were quite a few challenging moments that I went through while creating an
 
 ## Screenshot of the application and Link to deployed application
 * [Link to the deployed application](https://hhealing123.github.io/Module-3-Challenge/).
-* Screenshot of working application
+* Screenshot of the application:
 <img src = "./assets/images/Screenshot.JPG">
 
 ## Final Thoughts

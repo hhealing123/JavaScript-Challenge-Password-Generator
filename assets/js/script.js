@@ -15,12 +15,9 @@ var checkUppercase;
 function generatePassword() {
   var checkLength = prompt("Please enter how many characters you would like to have for your password. Choose between 8 characters and 128 characters.");
 
-
-// HOW DO I CHECK IF NON NUMERIC VALUE?
-
   /* Alerts the users if their password does not meet the password length criteria. 
   While loop allows to iterate over a block of code as long as the conditions are satisfied. */
-  while (checkLength <= 7 && checkLength >= 128) {
+  while (checkLength < 8 || checkLength > 128 || isNaN(checkLength)) {
     alert("Your password length must be between 8 characters and 128 characters. Please try again.");
     var checkLength = prompt("Please enter how many characters you would like to have for your password. Choose between 8 characters and 128 characters.");
   }
@@ -62,11 +59,11 @@ function generatePassword() {
     passcodes = passcodes.concat(uppercase);
   }
 
-  var randomPassword;
+  var randomPassword = "";
 
   /* The for loop will allow to add random indexes from the array of possible characters; it will then concanternate those characters to
   the variable 'randomPassword. */
-  for (var i = 1; i < checkLength; i++){
+  for (var i = 0; i < checkLength; i++){
     randomPassword = randomPassword + passcodes[Math.floor(Math.random() * passcodes.length)];
   }
   // Return will stop the execution of above for loop and returns the desired value based on the users inputs.
